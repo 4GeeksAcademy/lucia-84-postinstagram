@@ -46,7 +46,11 @@ margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
    font-size: 32px;
+}
 
+.icono-puntos {
+
+font-size: 25px;
 
 }
 .post-image {
@@ -70,3 +74,20 @@ margin-right: auto;
 
 }
 
+.post-options {
+
+    display: flex;
+}
+
+.icon {
+
+    font-size: 25px;
+    margin-left: 5px;  
+
+}
+.last-icon {
+
+        margin-left: auto;
+        font-size: 25px;
+        margin-right: 5px; 
+}
