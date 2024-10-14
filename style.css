@@ -7,12 +7,13 @@ html {
 .post {
 
     border: solid;
-    width: 350px;
+    width: 450px;
+    height: 500px;
     margin-top: 200px;
     margin-bottom: 200px;
     padding-block:  10px 20px;
     writing-mode: horizontal-tb;;
-    margin-left: 500px;
+    margin-left: 800px;
     margin-right: 50px;
     background-color: white;
 
@@ -27,12 +28,18 @@ margin-right: auto;
 
     display: flex;
     width: 80%;                
-    margin: 0 auto;            
+    margin: 0 auto;  
+    margin-left: 10px;          
     padding: 0px;   
     background-color: white;
  
 }
 
+.post-profile {
+
+    margin-right: 300px;
+
+}
 .post-header h4,
 .post-header h5 {
     margin-top: 0;    /* Remove top margin */
@@ -61,6 +68,7 @@ font-size: 25px;
     object-position: center;
 
 }
+
 
 .post-image img {
     width: 100%;
